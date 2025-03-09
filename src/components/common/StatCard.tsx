@@ -1,5 +1,4 @@
 import { motion } from "framer-motion";
-import { ReactNode } from "react";
 
 type IconProps = {
     size?: number;
@@ -10,7 +9,7 @@ type IconProps = {
 interface props{
     name: string;
     icon: React.FC<IconProps>;
-    value: number;
+    value: string | number;
     color: string
 }
 
