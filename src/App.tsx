@@ -3,6 +3,7 @@ import ProductsPage from './pages/ProductsPage';
 import { Route, Routes } from 'react-router';
 import OverviewPage from './pages/OverviewPage';
 import Sidebar from './components/common/Sidebar';
+import UsersPage from './pages/UsersPage';
 
 function App() {
 
@@ -18,8 +19,8 @@ function App() {
     <Routes>
       <Route path='/' element={<OverviewPage />} />
       <Route path='/products' element={<ProductsPage />} />
-      {/* <Route path='/users' element={<UsersPage />} />
-      <Route path='/sales' element={<SalesPage />} />
+      <Route path='/users' element={<UsersPage />} />
+      {/* <Route path='/sales' element={<SalesPage />} />
       <Route path='/orders' element={<OrdersPage />} />
       <Route path='/analytics' element={<AnalyticsPage />} />
       <Route path='/settings' element={<SettingsPage />} /> */}
