@@ -4,6 +4,7 @@ import { Route, Routes } from 'react-router';
 import OverviewPage from './pages/OverviewPage';
 import Sidebar from './components/common/Sidebar';
 import UsersPage from './pages/UsersPage';
+import SettingsPage from './pages/SettingsPage';
 
 function App() {
 
